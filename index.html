@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Voyages Horizon - Réservation complète</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header" id="accueil">
+        <nav class="navbar">
+            <a class="logo" href="#accueil">Voyages Horizon</a>
+            <ul class="nav-links">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#experiences">Expériences</a></li>
+                <li><a href="#reservations">Réservations</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="btn btn-primary">Se connecter</button>
+        </nav>
+        <div class="hero">
+            <div class="hero-text">
+                <span class="badge">Nouveautés 2024</span>
+                <h1>Explorez le monde avec des offres exclusives</h1>
+                <p>
+                    Des séjours sur-mesure, des vols flexibles et des billets de train à
+                    prix doux pour satisfaire toutes vos envies d&#39;évasion.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#reservations">Réserver maintenant</a>
+                    <a class="btn btn-outline" href="#destinations">Découvrir</a>
+                </div>
+                <ul class="hero-stats">
+                    <li>
+                        <strong>+500</strong>
+                        <span>Hotels partenaires</span>
+                    </li>
+                    <li>
+                        <strong>120</strong>
+                        <span>Destinations desservies</span>
+                    </li>
+                    <li>
+                        <strong>4.8/5</strong>
+                        <span>Satisfaction voyageurs</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero-card">
+                <img src="ZiClJf-1920w.jpg" alt="Vue aérienne d&#39;une station balnéaire" />
+                <div class="card-overlay">
+                    <h2>Évasion à Bali</h2>
+                    <p>
+                        Profitez d&#39;un séjour de 7 nuits avec vol inclus et activités guidées.
+                    </p>
+                    <span class="price">À partir de 1299 €</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="destinations">
+            <div class="section-header">
+                <h2>Destinations phares</h2>
+                <p>Des séjours choisis pour vous offrir le meilleur du voyage.</p>
+            </div>
+            <div class="card-grid">
+                <article class="destination-card">
+                    <span class="badge">Ville &amp; culture</span>
+                    <h3>Tokyo, Japon</h3>
+                    <p>
+                        Mélange unique entre modernité et tradition. Excursions guidées et
+                        expériences culinaires incluses.
+                    </p>
+                    <div class="card-footer">
+                        <span class="price">Vol + hôtel dès 1090 €</span>
+                        <a href="#reservations" class="link">Réserver</a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <span class="badge">Nature</span>
+                    <h3>Islande</h3>
+                    <p>
+                        Découvrez glaciers, volcans et aurores boréales avec un guide local
+                        francophone.
+                    </p>
+                    <div class="card-footer">
+                        <span class="price">Circuit complet dès 1490 €</span>
+                        <a href="#reservations" class="link">Réserver</a>
+                    </div>
+                </article>
+                <article class="destination-card">
+                    <span class="badge">Plage</span>
+                    <h3>Santorin, Grèce</h3>
+                    <p>
+                        Détente et couchers de soleil idylliques. Croisière dans les Cyclades
+                        optionnelle.
+                    </p>
+                    <div class="card-footer">
+                        <span class="price">Séjour de charme dès 890 €</span>
+                        <a href="#reservations" class="link">Réserver</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="experiences">
+            <div class="section-header">
+                <h2>Des expériences qui marquent</h2>
+                <p>
+                    Combinez transport, hébergement et activités grâce à nos agents de
+                    voyages disponibles 7j/7.
+                </p>
+            </div>
+            <div class="experience-grid">
+                <article class="experience-card">
+                    <h3>Escapades romantiques</h3>
+                    <p>Diners privés, spas et suites panoramiques.</p>
+                </article>
+                <article class="experience-card">
+                    <h3>Circuits découvertes</h3>
+                    <p>Guides experts et rencontres authentiques.</p>
+                </article>
+                <article class="experience-card">
+                    <h3>Voyages d&#39;affaires</h3>
+                    <p>Gestion des déplacements et services premium.</p>
+                </article>
+                <article class="experience-card">
+                    <h3>Aventures sportives</h3>
+                    <p>Randonnée, ski, plongée et bien plus encore.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="reservations">
+            <div class="section-header">
+                <h2>Réservez votre prochain voyage</h2>
+                <p>Un espace unique pour vos réservations d&#39;hôtel, d&#39;avion et de train.</p>
+            </div>
+            <div class="booking">
+                <div class="booking-tabs" role="tablist" aria-label="Types de réservation">
+                    <button class="booking-tab active" role="tab" aria-selected="true" data-target="hotel">
+                        Hôtel
+                    </button>
+                    <button class="booking-tab" role="tab" aria-selected="false" data-target="flight">
+                        Avion
+                    </button>
+                    <button class="booking-tab" role="tab" aria-selected="false" data-target="train">
+                        Train
+                    </button>
+                </div>
+
+                <form class="booking-form active" id="form-hotel" data-form="hotel">
+                    <div class="form-group">
+                        <label for="hotel-destination">Destination</label>
+                        <input id="hotel-destination" type="text" name="destination" placeholder="Ville ou hôtel"
+                            required />
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="hotel-arrival">Arrivée</label>
+                            <input id="hotel-arrival" type="date" name="arrival" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="hotel-departure">Départ</label>
+                            <input id="hotel-departure" type="date" name="departure" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="hotel-guests">Voyageurs</label>
+                        <input id="hotel-guests" type="number" name="guests" min="1" value="2" required />
+                    </div>
+                    <button class="btn btn-primary" type="submit">Rechercher un hôtel</button>
+                </form>
+
+                <form class="booking-form" id="form-flight" data-form="flight">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="flight-origin">Départ</label>
+                            <input id="flight-origin" type="text" name="origin" placeholder="Ville ou aéroport"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <label for="flight-destination">Arrivée</label>
+                            <input id="flight-destination" type="text" name="destination"
+                                placeholder="Ville ou aéroport" required />
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="flight-departure">Date de départ</label>
+                            <input id="flight-departure" type="date" name="departure" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="flight-return">Date de retour</label>
+                            <input id="flight-return" type="date" name="return" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="flight-passengers">Passagers</label>
+                        <input id="flight-passengers" type="number" name="passengers" min="1" value="1" required />
+                    </div>
+                    <button class="btn btn-primary" type="submit">Chercher un vol</button>
+                </form>
+
+                <form class="booking-form" id="form-train" data-form="train">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="train-origin">Gare de départ</label>
+                            <input id="train-origin" type="text" name="origin" placeholder="Ville ou gare" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="train-destination">Gare d&#39;arrivée</label>
+                            <input id="train-destination" type="text" name="destination" placeholder="Ville ou gare"
+                                required />
+                        </div>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="train-date">Date</label>
+                            <input id="train-date" type="date" name="date" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="train-time">Heure (optionnelle)</label>
+                            <input id="train-time" type="time" name="time" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="train-passengers">Voyageurs</label>
+                        <input id="train-passengers" type="number" name="passengers" min="1" value="1" required />
+                    </div>
+                    <button class="btn btn-primary" type="submit">Trouver un billet</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="faq">
+            <div class="section-header">
+                <h2>Questions fréquentes</h2>
+                <p>
+                    Retrouvez les réponses aux questions les plus posées par nos voyageurs.
+                </p>
+            </div>
+            <div class="accordion" role="list">
+                <article class="accordion-item" role="listitem">
+                    <button class="accordion-toggle" aria-expanded="false">
+                        Puis-je modifier ma réservation après confirmation ?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="accordion-panel" hidden>
+                        <p>
+                            Oui, la plupart des offres incluent une modification gratuite jusqu&#39;à
+                            48 heures avant le départ. Contactez notre support pour vérifier les
+                            conditions de votre formule.
+                        </p>
+                    </div>
+                </article>
+                <article class="accordion-item" role="listitem">
+                    <button class="accordion-toggle" aria-expanded="false">
+                        Proposez-vous des assurances voyage ?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="accordion-panel" hidden>
+                        <p>
+                            Nous proposons plusieurs formules d&#39;assurance couvrant les annulations,
+                            les retards et l&#39;assistance médicale. Elles sont disponibles lors de
+                            la réservation.
+                        </p>
+                    </div>
+                </article>
+                <article class="accordion-item" role="listitem">
+                    <button class="accordion-toggle" aria-expanded="false">
+                        Puis-je payer en plusieurs fois ?
+                        <span class="icon">+</span>
+                    </button>
+                    <div class="accordion-panel" hidden>
+                        <p>
+                            Un paiement en 3 ou 4 fois est possible via notre partenaire bancaire.
+                            L&#39;option apparaît au moment du paiement.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="footer-grid">
+            <div>
+                <h2 class="logo">Voyages Horizon</h2>
+                <p>Votre agence de voyage en ligne depuis 2009.</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <ul>
+                    <li>+33 1 23 45 67 89</li>
+                    <li>contact@voyages-horizon.fr</li>
+                    <li>Du lundi au samedi, 8h - 20h</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Suivez-nous</h3>
+                <ul class="social-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Recevez nos offres</h3>
+                <form class="newsletter-form">
+                    <label class="sr-only" for="newsletter-email">Votre email</label>
+                    <input id="newsletter-email" type="email" placeholder="Votre email" required />
+                    <button class="btn btn-primary" type="submit">S&#39;inscrire</button>
+                </form>
+            </div>
+        </div>
+        <p class="footer-note">© 2024 Voyages Horizon - Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
